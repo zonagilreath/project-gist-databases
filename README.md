@@ -3,6 +3,10 @@ Gist Database
 
 Today's project will combine our work with the [requests library](http://docs.python-requests.org/en/master/) (HTTP) and databases. We will use requests to interface with Github's API to retrieve [gists](https://help.github.com/articles/about-gists/) and store them in a database that we will then be able to perform searches on.
 
+## Tests
+
+Tests are all under `tests/`. We some fixtures and mocking to make testing fast and remove side effects. Don't worry if you don't understand it now. You can just focus on reading the actual test functions. If you feel lost and need to print something out in the screen, you can use the `main.py` script. It's using the testing database. The same one used for `test_search.py`.
+
 ## The Importer
 Your `import_gists_to_database` function will take three parameters:
 
