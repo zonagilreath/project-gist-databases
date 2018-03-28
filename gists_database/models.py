@@ -1,0 +1,2 @@
+class Gist(object):
+    pass
