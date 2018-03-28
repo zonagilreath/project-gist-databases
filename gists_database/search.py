@@ -1,6 +1,5 @@
 from .models import Gist
 
-# <REMOVE ME - FROM HERE
 DATETIME_PREFIXES = ('created_at', 'updated_at')
 
 
@@ -50,8 +49,6 @@ def build_query(**kwargs):
         query += ' AND '.join(filters)
 
     return query, values
-
-# REMOVE ME - TO HERE />
 
 def search_gists(db_connection, **kwargs):
     query, params = build_query(**kwargs)
