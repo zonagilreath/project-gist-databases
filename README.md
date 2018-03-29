@@ -6,6 +6,10 @@ Gist Database
   <a href="https://youtu.be/XzFNMy1UDQM" target="_blank">
     <img src="https://img.youtube.com/vi/XzFNMy1UDQM/0.jpg">
   </a>
+
+
+<p align="center">
+  <a href="https://youtu.be/XzFNMy1UDQM" target="_blank"><i>Project Overview</i></a>
 </p>
 
 
