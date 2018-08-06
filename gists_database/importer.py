@@ -43,6 +43,3 @@ def import_gists_to_database(db, username, commit=True):
         db.commit()
     else:
         db.rollback()
-        
-    
-    
